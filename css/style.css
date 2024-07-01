@@ -3,13 +3,6 @@
     object-fit: cover;
   }
   
-
-
-
-
-
-
-  
   @media all and (min-width: 992px){
     .imagenCarousel{
       height: 600px;
@@ -23,4 +16,16 @@
       object-fit: cover;
      
     }
+  }
+
+/* BAJAMOS FOOTER  */ 
+
+  main {
+    flex-grow: 1;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
