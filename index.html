@@ -22,58 +22,183 @@
     <title>Pokedex</title>
   </head>
   <body>
-    <header>
-    </header>
+    <header></header>
     <main>
-         <!-- carousel principal -->
+      <!-- carousel principal -->
       <section
-      id="bannerPrincipal"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="./img/slider001.png"
-            class="d-block w-100 imagenCarousel"
-            alt="Banner presentación"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./img/slider002.png"
-            class="d-block w-100 imagenCarousel"
-            alt="Pokemon calavera"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./img/slider003.png"
-            class="d-block w-100 imagenCarousel"
-            alt="Pokemones Fantasmas"
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#bannerPrincipal"
-        data-bs-slide="prev"
+        id="bannerPrincipal"
+        class="carousel slide"
+        data-bs-ride="carousel"
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#bannerPrincipal"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </section>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/slider001.png"
+              class="d-block w-100 imagenCarousel"
+              alt="Banner presentación"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/slider002.png"
+              class="d-block w-100 imagenCarousel"
+              alt="Pokemon calavera"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/slider003.png"
+              class="d-block w-100 imagenCarousel"
+              alt="Pokemones Fantasmas"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#bannerPrincipal"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#bannerPrincipal"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section class="containter-flud bg-dark p-5 text-center">
+        <h1 class="text-white">Pokedex - Trabajo Prático</h1>
+      </section>
 
+      <section class="containter text-center">
+        <article class="row justify-content-around">
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">BULBASAUR</h5>
+            <img
+              src="/img/pokemones/001 Bulbasaur.png"
+              class="card-img-top"
+              alt="Bulbasaur pokemon planta"
+            />
+            <div class="card-body">
+              <p class="card-text">001</p>
+              <div class="badge text-bg-success mb-3">PLANTA</div>
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">IVYSUAR</h5>
+            <img
+              src="/img/pokemones/002 Ivysaur.png"
+              class="card-img-top"
+              alt="Ivysuar pokemon planta"
+            />
+            <div class="card-body">
+              <p class="card-text">002</p>
+              <div class="badge text-bg-success mb-3">PLANTA</div>
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">VENUSAUR</h5>
+            <img
+              src="/img/pokemones/003 Venusaur.png"
+              class="card-img-top"
+              alt="Venusaur pokemon planta"
+            />
+            <div class="card-body">
+              <p class="card-text">003</p>
+              <div class="badge text-bg-success mb-3">PLANTA</div>
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">CHARMANDER</h5>
+            <img
+              src="/img/pokemones/004 Charmander.png"
+              class="card-img-top"
+              alt="Charmander pokemon Fuego"
+            />
+            <div class="card-body">
+              <p class="card-text">004</p>
+              <div class="badge text-bg-danger mb-3">FUEGO</div>
+
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">CHARMELEON</h5>
+            <img
+              src="/img/pokemones/005 Charmeleon.png"
+              class="card-img-top"
+              alt="Charmeleon pokemon Fuego"
+            />
+            <div class="card-body">
+              <p class="card-text">005</p>
+              <div class="badge text-bg-danger mb-3">FUEGO</div>
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">CHARIZARD</h5>
+            <img
+              src="/img/pokemones/006 Charizard.png"
+              class="card-img-top"
+              alt="Charizard pokemon Fuego"
+            />
+            <div class="card-body">
+              <p class="card-text">006</p>
+              <div class="badge text-bg-danger mb-3">FUEGO</div>
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">SQUIRTLE</h5>
+            <img
+              src="/img/pokemones/007 Squirtle.png"
+              class="card-img-top"
+              alt="Squirtle pokemon agua"
+            />
+            <div class="card-body">
+              <p class="card-text">007</p>
+              <div class="badge text-bg-primary mb-3">AGUA</div>
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">WARTOTLE</h5>
+            <img
+              src="/img/pokemones/008 Wartortle.png"
+              class="card-img-top"
+              alt="Wartortle pokemon agua"
+            />
+            <div class="card-body">
+              <p class="card-text">008</p>
+              <div class="badge text-bg-primary mb-3">AGUA</div>
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+          <div class="card m-5 p-5" style="width: 18rem">
+            <h5 class="card-title">BLASTOISE</h5>
+            <img
+              src="/img/pokemones/009 Blastoise.png"
+              class="card-img-top"
+              alt="Blastoise pokemon agua"
+            />
+            <div class="card-body">
+              <p class="card-text">009</p>
+              <div class="badge text-bg-primary mb-3">AGUA</div>
+              <a href="#" class="btn btn-warning">MAS INFO</a>
+            </div>
+          </div>
+        </article>
+      </section>
 
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
