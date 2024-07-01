@@ -16,3 +16,11 @@
       object-position: 50% 30%;
     }
   }
+
+  @media all and (max-width: 768px){
+    .imagenCarousel{
+      height: 150px;
+      object-fit: cover;
+     
+    }
+  }
