@@ -1,0 +1,18 @@
+.imagenCarousel{
+    height: 450px;
+    object-fit: cover;
+  }
+  
+
+
+
+
+
+
+  
+  @media all and (min-width: 992px){
+    .imagenCarousel{
+      height: 600px;
+      object-position: 50% 30%;
+    }
+  }
