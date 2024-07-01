@@ -3,22 +3,15 @@
     object-fit: cover;
   }
   
-/* img{
-    margin: auto;
-    cursor: pointer;
-
-}
-
-img :hover{
-    transform: scale(1.5);
-    /* transition: 4s; */
-
-} */
+<<<<<<< HEAD
 
 
 
+git
 
   
+=======
+>>>>>>> 1b14f0d1e37c12ade2d721d94ae48e404402c005
   @media all and (min-width: 992px){
     .imagenCarousel{
       height: 600px;
@@ -32,4 +25,16 @@ img :hover{
       object-fit: cover;
      
     }
+  }
+
+/* BAJAMOS FOOTER  */ 
+
+  main {
+    flex-grow: 1;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
