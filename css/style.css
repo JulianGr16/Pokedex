@@ -1,17 +1,10 @@
+
 .imagenCarousel{
     height: 450px;
     object-fit: cover;
   }
   
-<<<<<<< HEAD
 
-
-
-git
-
-  
-=======
->>>>>>> 1b14f0d1e37c12ade2d721d94ae48e404402c005
   @media all and (min-width: 992px){
     .imagenCarousel{
       height: 600px;
@@ -38,3 +31,4 @@ git
     display: flex;
     flex-direction: column;
   }
+
