@@ -1,8 +1,21 @@
 
 .imagenCarousel{
-    height: 450px;
-    object-fit: cover;
+  height: 450px;
+  object-fit: cover;
+}
+@media all and (min-width: 992px){
+  .imagenCarousel{
+    height: 600px;
+    object-position: 50% 30%;
   }
+
+}
+
+@media all and (max-width: 768px){
+  .imagenCarousel{
+    height: 150px;
+    object-fit: cover;
+=======
   
 
   @media all and (min-width: 992px){
@@ -12,23 +25,16 @@
     }
   }
 
-  @media all and (max-width: 768px){
-    .imagenCarousel{
-      height: 150px;
-      object-fit: cover;
-     
-    }
   }
-
+}
 /* BAJAMOS FOOTER  */ 
 
-  main {
-    flex-grow: 1;
-  }
+main {
+  flex-grow: 1;
+}
 
-  body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
